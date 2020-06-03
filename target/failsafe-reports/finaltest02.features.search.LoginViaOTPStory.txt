@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: finaltest02.features.search.LoginViaOTPStory
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 24.545 s <<< FAILURE! - in finaltest02.features.search.LoginViaOTPStory
+login_via_otp(finaltest02.features.search.LoginViaOTPStory)  Time elapsed: 20 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: a string containing "BDD In Action"
+     but: was "Login - Testmaster.vn"
+	at finaltest02.features.search.LoginViaOTPStory.login_via_otp(LoginViaOTPStory.java:53)
+

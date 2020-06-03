@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="finaltest02.features.search.LoginViaOTPStory" skipped="0" tests="1" time="19.96" timestamp="2020-06-04 12:12:16"><testcase classname="finaltest02.features.search.LoginViaOTPStory" name="Login via otp"><failure message="&#10;Expected: a string containing &quot;BDD In Action&quot;&#10;     but: was &quot;Login - Testmaster.vn&quot;" type="java.lang.AssertionError">
+Expected: a string containing "BDD In Action"
+     but: was "Login - Testmaster.vn"</failure><system-err>
+Expected: a string containing "BDD In Action"
+     but: was "Login - Testmaster.vn"&#13;
+finaltest02.features.search.LoginViaOTPStory.login_via_otp(LoginViaOTPStory.java:53)&#13;
+</system-err></testcase></testsuite>
