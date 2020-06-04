@@ -19,7 +19,7 @@ public class Verification implements Question<String> {
         Session emailSession = Session.getDefaultInstance(mail);
         try {
             Store store = emailSession.getStore("pop3s");
-            store.connect("pop.gmail.com", "dtnhan307.ptit@gmail.com", "***");
+            store.connect("pop.gmail.com", "***@gmail.com", "***");
 
             Folder emailFolder = store.getFolder("INBOX");
             emailFolder.open(Folder.READ_ONLY);

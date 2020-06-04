@@ -50,7 +50,7 @@ public class LoginViaOTPStory {
 
         );
 
-        then(anna).should(eventually(seeThat(TheWebPage.title(), containsString("BDD In Action"))));
+        then(anna).should(eventually(seeThat(TheWebPage.title(), containsString("Admin - Testmaster.vn"))));
 
     }
 }
