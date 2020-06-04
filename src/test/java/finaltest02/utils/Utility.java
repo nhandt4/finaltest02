@@ -41,7 +41,7 @@ public class Utility {
     }
 
     private static String ExtractOTPFromEmailContent(String emailContent)
-    {
+    { /*
         String pattern = "(\\d+)";
         Pattern r = Pattern.compile(pattern);
 
@@ -49,7 +49,16 @@ public class Utility {
         Matcher m = r.matcher(emailContent);
         if (m.find()) {
             return m.group(0);
+        }*/
+        String otp = "";
+        String[] result = emailContent.split("\n");
+        for(int i =0; i< result.length; i++){
+            if(result[i].startsWith("Verification code: ")){
+                otp = result[i].substring(19, result[i].length());
+                System.out.println(otp);
+                break;
+            }
         }
-        return "";
+        return otp;
     }
 }
